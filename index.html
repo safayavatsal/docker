@@ -1,0 +1,42 @@
+<!-- index.html with CSS and JavaScript -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dockerized Nginx Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding-top: 50px;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #2980b9;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #3498db;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello, Docker!</h1>
+    <p>Click the button to see an alert message.</p>
+    <button onclick="showAlert()">Click me</button>
+
+    <script>
+        function showAlert() {
+            alert('You clicked the button!');
+        }
+    </script>
+</body>
+</html>
